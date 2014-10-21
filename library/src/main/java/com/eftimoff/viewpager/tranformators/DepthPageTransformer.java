@@ -1,8 +1,8 @@
-package com.eftimoff.viewpagertranformators;
+package com.eftimoff.viewpager.tranformators;
 
 import android.view.View;
 
-public class DepthPageTransformer extends ABaseTransformer {
+public class DepthPageTransformer extends BaseTransformer {
 
 	private static final float MIN_SCALE = 0.75f;
 

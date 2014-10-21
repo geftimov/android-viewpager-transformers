@@ -14,22 +14,22 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-import com.eftimoff.viewpagertranformators.AccordionTransformer;
-import com.eftimoff.viewpagertranformators.BackgroundToForegroundTransformer;
-import com.eftimoff.viewpagertranformators.CubeInTransformer;
-import com.eftimoff.viewpagertranformators.CubeOutTransformer;
-import com.eftimoff.viewpagertranformators.DefaultTransformer;
-import com.eftimoff.viewpagertranformators.DepthPageTransformer;
-import com.eftimoff.viewpagertranformators.FlipHorizontalTransformer;
-import com.eftimoff.viewpagertranformators.FlipVerticalTransformer;
-import com.eftimoff.viewpagertranformators.ForegroundToBackgroundTransformer;
-import com.eftimoff.viewpagertranformators.RotateDownTransformer;
-import com.eftimoff.viewpagertranformators.RotateUpTransformer;
-import com.eftimoff.viewpagertranformators.StackTransformer;
-import com.eftimoff.viewpagertranformators.TabletTransformer;
-import com.eftimoff.viewpagertranformators.ZoomInTransformer;
-import com.eftimoff.viewpagertranformators.ZoomOutSlideTransformer;
-import com.eftimoff.viewpagertranformators.ZoomOutTranformer;
+import com.eftimoff.viewpager.tranformators.AccordionTransformer;
+import com.eftimoff.viewpager.tranformators.BackgroundToForegroundTransformer;
+import com.eftimoff.viewpager.tranformators.CubeInTransformer;
+import com.eftimoff.viewpager.tranformators.CubeOutTransformer;
+import com.eftimoff.viewpager.tranformators.DefaultTransformer;
+import com.eftimoff.viewpager.tranformators.DepthPageTransformer;
+import com.eftimoff.viewpager.tranformators.FlipHorizontalTransformer;
+import com.eftimoff.viewpager.tranformators.FlipVerticalTransformer;
+import com.eftimoff.viewpager.tranformators.ForegroundToBackgroundTransformer;
+import com.eftimoff.viewpager.tranformators.RotateDownTransformer;
+import com.eftimoff.viewpager.tranformators.RotateUpTransformer;
+import com.eftimoff.viewpager.tranformators.StackTransformer;
+import com.eftimoff.viewpager.tranformators.TabletTransformer;
+import com.eftimoff.viewpager.tranformators.ZoomInTransformer;
+import com.eftimoff.viewpager.tranformators.ZoomOutSlideTransformer;
+import com.eftimoff.viewpager.tranformators.ZoomOutTranformer;
 
 import java.util.ArrayList;
 

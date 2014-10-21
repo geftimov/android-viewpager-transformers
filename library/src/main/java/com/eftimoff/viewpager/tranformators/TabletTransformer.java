@@ -1,10 +1,10 @@
-package com.eftimoff.viewpagertranformators;
+package com.eftimoff.viewpager.tranformators;
 
 import android.graphics.Camera;
 import android.graphics.Matrix;
 import android.view.View;
 
-public class TabletTransformer extends ABaseTransformer {
+public class TabletTransformer extends BaseTransformer {
 
 	private static final Matrix OFFSET_MATRIX = new Matrix();
 	private static final Camera OFFSET_CAMERA = new Camera();

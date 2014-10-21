@@ -1,8 +1,8 @@
-package com.eftimoff.viewpagertranformators;
+package com.eftimoff.viewpager.tranformators;
 
 import android.view.View;
 
-public class AccordionTransformer extends ABaseTransformer {
+public class AccordionTransformer extends BaseTransformer {
 
 	@Override
 	protected void onTransform(View view, float position) {

@@ -1,8 +1,8 @@
-package com.eftimoff.viewpagertranformators;
+package com.eftimoff.viewpager.tranformators;
 
 import android.view.View;
 
-public class ForegroundToBackgroundTransformer extends ABaseTransformer {
+public class ForegroundToBackgroundTransformer extends BaseTransformer {
 
 	@Override
 	protected void onTransform(View view, float position) {
