@@ -2,8 +2,5 @@
           package="com.eftimoff.viewpager.transformators">
 
 
-    <uses-sdk
-        android:minSdkVersion="11"
-        android:targetSdkVersion="21"/>
     
 </manifest>
