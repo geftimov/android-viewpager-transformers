@@ -24,6 +24,8 @@ proguard/
 
 # IDE files
 .idea/
+/.idea
+.idea
 *.iml
 
 # OS files
