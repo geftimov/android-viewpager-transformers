@@ -8,13 +8,31 @@ A collection of view pager transformers
 Simply import this project into your IDE and reference the Library as an Android Library Project from your project. After configuration, instantiate the transformer animation you wish to use and set it as the [page transformer](http://developer.android.com/reference/android/support/v4/view/ViewPager.html#setPageTransformer(boolean, android.support.v4.view.ViewPager.PageTransformer)).
 
 ```java
-
 // Reference (or instantiate) a ViewPager instance and apply a transformer
 pager = (ViewPager) findViewById(R.id.container);
 pager.setAdapter(mAdapter);
 pager.setPageTransformer(true, new RotateUpTransformer());
-
 ```
+
+#List of trasnformers
+
+ * [AccordionTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/AccordionTransformer.java)
+ * [BackgroundToForegroundTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/BackgroundToForegroundTransformer.java)
+ * [CubeInTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/CubeInTransformer.java)
+ * [CubeOutTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/CubeOutTransformer.java)
+ * [DefaultTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/DefaultTransformer.java)
+ * [DepthPageTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/DepthPageTransformer.java)
+ * [FlipHorizontalTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/FlipHorizontalTransformer.java)
+ * [FlipVerticalTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/FlipVerticalTransformer.java)
+ * [ForegroundToBackgroundTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/ForegroundToBackgroundTransformer.java)
+ * [RotateDownTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/RotateDownTransformer.java)
+ * [RotateUpTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/RotateUpTransformer.java)
+ * [StackTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/StackTransformer.java)
+ * [TabletTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/TabletTransformer.java)
+ * [ZoomInTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/ZoomInTransformer.java)
+ * [ZoomOutSlideTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/ZoomOutSlideTransformer.java)
+ * [ZoomOutTranformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/ZoomOutTranformer.java)
+
 
 #Creating Custom Transforms
 
