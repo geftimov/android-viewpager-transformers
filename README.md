@@ -1,7 +1,8 @@
 android-viewpager-transformers
 ==============================
 
-A collection of view pager transformers
+A collection of view pager transformers.
+
 This repos is fork from [daimajia](https://github.com/daimajia/ViewPagerTransforms) but i uploaded it to maven central and added some more javadoc.
 
 #Getting Started
