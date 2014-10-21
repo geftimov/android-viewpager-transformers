@@ -5,9 +5,9 @@ android {
     buildToolsVersion "20.0.0"
 
     defaultConfig {
-        applicationId "com.eftimoff.location.mymodule.mymodule.app"
+        applicationId "com.eftimoff.viewpager.transformators"
         minSdkVersion 11
-        targetSdkVersion '20'
+        targetSdkVersion 21
         versionCode 1
         versionName "1.0"
     }
@@ -21,5 +21,5 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:support-v4:20.0.0'
+    compile 'com.android.support:support-v4:21.0.0'
 }
