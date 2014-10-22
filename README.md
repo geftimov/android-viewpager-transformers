@@ -7,7 +7,18 @@ This repos is fork from [daimajia](https://github.com/daimajia/ViewPagerTransfor
 
 #Getting Started
 
-Simply import this project into your IDE and reference the Library as an Android Library Project from your project. After configuration, instantiate the transformer animation you wish to use and set it as the [page transformer](http://developer.android.com/reference/android/support/v4/view/ViewPager.html#setPageTransformer(boolean, android.support.v4.view.ViewPager.PageTransformer)).
+Add gradle dependency to your application.
+```
+repositories {
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+    mavenCentral()
+}
+dependencies {
+    compile 'com.eftimoff:android-viewpager-transformers:1.0.0-SNAPSHOT@aar'
+}
+```
+
+How you can use it:
 
 ```java
 // Reference (or instantiate) a ViewPager instance and apply a transformer
