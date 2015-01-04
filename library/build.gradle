@@ -3,20 +3,13 @@ apply from: '../maven_push.gradle'
 
 android {
     compileSdkVersion 21
-    buildToolsVersion "20.0.0"
+    buildToolsVersion "21.0.1"
 
     defaultConfig {
-        applicationId "com.eftimoff.viewpager.transformators"
         minSdkVersion 11
         targetSdkVersion 21
         versionCode 1
         versionName "1.0.0"
-    }
-    buildTypes {
-        release {
-            runProguard false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
     }
 }
 
