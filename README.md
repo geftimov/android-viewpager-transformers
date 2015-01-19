@@ -29,23 +29,26 @@ pager.setPageTransformer(true, new RotateUpTransformer());
 
 #List of trasnformers
 
-| [AccordionTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/AccordionTransformer.java)       | [BackgroundToForegroundTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/BackgroundToForegroundTransformer.java)         | 
-| :-------------------------------: | :-------------------------------:|
-| ![alt text](https://github.com/geftimov/android-viewpager-transformers/blob/master/art/accordion.gif) | ![alt text](https://github.com/geftimov/android-viewpager-transformers/blob/master/art/backtofore.gif)  |
-| [CubeOutTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/CubeOutTransformer.java) | [DefaultTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/DefaultTransformer.java)  |
-| ![alt text](https://github.com/geftimov/android-viewpager-transformers/blob/master/art/cubeout.gif) | ![alt text](https://github.com/geftimov/android-viewpager-transformers/blob/master/art/default.gif) | 
-| [FlipHorizontalTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/FlipHorizontalTransformer.java) | [FlipVerticalTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/FlipVerticalTransformer.java) | 
-| ![alt text](https://github.com/geftimov/android-viewpager-transformers/blob/master/art/fliphor.gif) | ![alt text](https://github.com/geftimov/android-viewpager-transformers/blob/master/art/flipvert.gif) | 
-| [RotateDownTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/RotateDownTransformer.java) | [RotateUpTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/RotateUpTransformer.java) | 
-| ![alt text](https://github.com/geftimov/android-viewpager-transformers/blob/master/art/rotatedown.gif) | ![alt text](https://github.com/geftimov/android-viewpager-transformers/blob/master/art/rotateup.gif) | 
-| [TabletTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/TabletTransformer.java) | [ZoomInTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/ZoomInTransformer.java) | 
-| ![alt text](https://github.com/geftimov/android-viewpager-transformers/blob/master/art/tablet.gif) | ![alt text](https://github.com/geftimov/android-viewpager-transformers/blob/master/art/zoomin.gif) | 
-| [ZoomOutTranformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/ZoomOutTranformer.java)     |  [CubeInTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/CubeInTransformer.java)   |
-| ![alt text](https://github.com/geftimov/android-viewpager-transformers/blob/master/art/zoomout.gif) |  ![alt text](https://github.com/geftimov/android-viewpager-transformers/blob/master/art/cubein.gif) |
-| [DepthPageTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/DepthPageTransformer.java)    |  [ForegroundToBackgroundTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/ForegroundToBackgroundTransformer.java) |
-| ![alt text](https://github.com/geftimov/android-viewpager-transformers/blob/master/art/depth.gif) |  ![alt text](https://github.com/geftimov/android-viewpager-transformers/blob/master/art/foretoback.gif) |
-| [StackTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/StackTransformer.java) | [ZoomOutSlideTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/ZoomOutSlideTransformer.java) |
-| ![alt text](https://github.com/geftimov/android-viewpager-transformers/blob/master/art/stack.gif) |  ![alt text](https://github.com/geftimov/android-viewpager-transformers/blob/master/art/zoomout.gif) |
+* [AccordionTransformer](https://github.com/geftimov/android-viewpager-transformers/wiki/AccordionTransformer)
+* [BackgroundToForegroundTransformer](https://github.com/geftimov/android-viewpager-transformers/wiki/BackgroundToForegroundTransformer)
+* [CubeInTransformer](https://github.com/geftimov/android-viewpager-transformers/wiki/CubeInTransformer)
+* [CubeOutTransformer](https://github.com/geftimov/android-viewpager-transformers/wiki/CubeOutTransformer)
+* [DefaultTransformer](https://github.com/geftimov/android-viewpager-transformers/wiki/DefaultTransformer)
+* [DepthPageTransformer](https://github.com/geftimov/android-viewpager-transformers/wiki/DepthPageTransformer)
+* [DrawFromBackTransformer](https://github.com/geftimov/android-viewpager-transformers/wiki/DrawFromBackTransformer)
+* [FlipHorizontalTransformer](https://github.com/geftimov/android-viewpager-transformers/wiki/FlipHorizontalTransformer)
+* [FlipVerticalTransformer](https://github.com/geftimov/android-viewpager-transformers/wiki/FlipVerticalTransformer)
+* [ForegroundToBackgroundTransformer](https://github.com/geftimov/android-viewpager-transformers/wiki/ForegroundToBackgroundTransformer)
+* [ParallaxPageTransformer](https://github.com/geftimov/android-viewpager-transformers/wiki/ParallaxPageTransformer)
+* [RotateDownTransformer](https://github.com/geftimov/android-viewpager-transformers/wiki/RotateDownTransformer)
+* [RotateUpTransformer](https://github.com/geftimov/android-viewpager-transformers/wiki/RotateUpTransformer)
+* [StackTransformer](https://github.com/geftimov/android-viewpager-transformers/wiki/StackTransformer)
+* [TabletTransformer](https://github.com/geftimov/android-viewpager-transformers/wiki/TabletTransformer)
+* [ZoomInTransformer](https://github.com/geftimov/android-viewpager-transformers/wiki/ZoomInTransformer)
+* [ZoomOutSlideTransformer](https://github.com/geftimov/android-viewpager-transformers/wiki/ZoomOutSlideTransformer)
+* [ZoomOutTranformer](https://github.com/geftimov/android-viewpager-transformers/wiki/ZoomOutTranformer)
+
+
 
 
 
