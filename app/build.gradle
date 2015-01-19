@@ -20,6 +20,6 @@ repositories {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.eftimoff:android-viewpager-transformers:1.0.0-SNAPSHOT'
     compile 'com.android.support:support-v4:21.0.0'
+    compile project(':library')
 }

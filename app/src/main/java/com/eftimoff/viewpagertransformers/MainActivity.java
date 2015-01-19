@@ -20,9 +20,11 @@ import com.eftimoff.viewpager.tranformators.CubeInTransformer;
 import com.eftimoff.viewpager.tranformators.CubeOutTransformer;
 import com.eftimoff.viewpager.tranformators.DefaultTransformer;
 import com.eftimoff.viewpager.tranformators.DepthPageTransformer;
+import com.eftimoff.viewpager.tranformators.DrawFromBackTransformer;
 import com.eftimoff.viewpager.tranformators.FlipHorizontalTransformer;
 import com.eftimoff.viewpager.tranformators.FlipVerticalTransformer;
 import com.eftimoff.viewpager.tranformators.ForegroundToBackgroundTransformer;
+import com.eftimoff.viewpager.tranformators.ParallaxPageTransformer;
 import com.eftimoff.viewpager.tranformators.RotateDownTransformer;
 import com.eftimoff.viewpager.tranformators.RotateUpTransformer;
 import com.eftimoff.viewpager.tranformators.StackTransformer;
@@ -57,6 +59,8 @@ public class MainActivity extends FragmentActivity implements ActionBar.OnNaviga
 		TRANSFORM_CLASSES.add(new TransformerItem(ZoomInTransformer.class));
 		TRANSFORM_CLASSES.add(new TransformerItem(ZoomOutTranformer.class));
 		TRANSFORM_CLASSES.add(new TransformerItem(ZoomOutSlideTransformer.class));
+		TRANSFORM_CLASSES.add(new TransformerItem(DrawFromBackTransformer.class));
+		TRANSFORM_CLASSES.add(new TransformerItem(ParallaxPageTransformer.class));
 	}
 
 	private int mSelectedItem;
