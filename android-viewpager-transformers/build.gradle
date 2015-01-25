@@ -1,0 +1,75 @@
+apply plugin: 'com.android.library'
+apply plugin: 'android-library'
+apply plugin: 'maven'
+apply plugin: 'signing'
+
+version = "1.0.1"
+group = "com.eftimoff"
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        minSdkVersion 11
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0.1"
+    }
+}
+
+configurations {
+    archives {
+        extendsFrom configurations.default
+    }
+}
+
+signing {
+    required { has("release") && gradle.taskGraph.hasTask("uploadArchives") }
+    sign configurations.archives
+}
+
+uploadArchives {
+    configuration = configurations.archives
+    repositories.mavenDeployer {
+        beforeDeployment { MavenDeployment deployment -> signing.signPom(deployment) }
+
+        repository(url: sonatypeRepo) {
+            authentication(userName: sonatypeUsername,
+                    password: sonatypePassword)
+        }
+
+        pom.project {
+            name 'Android Viewpager Transformers'
+            packaging 'aar'
+            description 'Android collection of viewpager transformers.'
+            url 'https://github.com/geftimov/android-viewpager-transformers'
+
+            scm {
+                url 'scm:git@github.com:geftimov/android-viewpager-transformers.git'
+                connection 'scm:git@github.com:geftimov/android-viewpager-transformers.git'
+                developerConnection 'scm:git@github.com:geftimov/android-viewpager-transformers.git'
+            }
+
+            licenses {
+                license {
+                    name 'The Apache Software License, Version 2.0'
+                    url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    distribution 'repo'
+                }
+            }
+
+            developers {
+                developer {
+                    id 'geftimov'
+                    name 'Georgi Eftimov'
+                    email 'jokatavr@gmail.com'
+                }
+            }
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:21.0.3'
+}

@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.eftimoff.viewpager.transformators">
+    package="com.eftimoff.viewpager.transformators">
 
 
-    
+
 </manifest>

@@ -1,4 +1,4 @@
-package com.eftimoff.viewpager.tranformators;
+package com.eftimoff.viewpagertransformers;
 
 import android.support.v4.view.ViewPager.PageTransformer;
 import android.view.View;
@@ -6,7 +6,7 @@ import android.view.View;
 public abstract class BaseTransformer implements PageTransformer {
 
 	/**
-	 * Called each {@link #transformPage(View, float)}.
+	 * Called each {@link #transformPage(android.view.View, float)}.
 	 *
 	 * @param view
 	 * @param position
@@ -22,7 +22,7 @@ public abstract class BaseTransformer implements PageTransformer {
 
 	/**
 	 * If the position offset of a fragment is less than negative one or greater than one, returning true will set the
-	 * visibility of the fragment to {@link View#GONE}. Returning false will force the fragment to {@link View#VISIBLE}.
+	 * visibility of the fragment to {@link android.view.View#GONE}. Returning false will force the fragment to {@link android.view.View#VISIBLE}.
 	 *
 	 * @return
 	 */
@@ -40,7 +40,7 @@ public abstract class BaseTransformer implements PageTransformer {
 	}
 
 	/**
-	 * Called each {@link #transformPage(View, float)} before {{@link #onTransform(View, float)} is called.
+	 * Called each {@link #transformPage(android.view.View, float)} before {{@link #onTransform(android.view.View, float)} is called.
 	 *
 	 * @param view
 	 * @param position
@@ -66,7 +66,7 @@ public abstract class BaseTransformer implements PageTransformer {
 	}
 
 	/**
-	 * Called each {@link #transformPage(View, float)} call after {@link #onTransform(View, float)} is finished.
+	 * Called each {@link #transformPage(android.view.View, float)} call after {@link #onTransform(android.view.View, float)} is finished.
 	 *
 	 * @param view
 	 * @param position

@@ -1,4 +1,4 @@
-package com.eftimoff.viewpager.tranformators;
+package com.eftimoff.viewpagertransformers;
 
 import android.support.v4.view.ViewPager;
 import android.view.View;
