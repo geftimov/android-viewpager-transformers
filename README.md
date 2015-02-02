@@ -5,7 +5,7 @@ A collection of view pager transformers.
 
 This repos is fork from [daimajia](https://github.com/daimajia/ViewPagerTransforms) but i uploaded it to maven central and added some more javadoc.
 
-### Download 
+### Download  
 
 	dependencies {
 		compile 'com.eftimoff:android-viewpager-transformers:1.0.1@aar'
