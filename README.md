@@ -20,7 +20,7 @@ pager.setAdapter(mAdapter);
 pager.setPageTransformer(true, new RotateUpTransformer());
 ```
 
-#List of trasnformers
+#List of transformers
 
 * [AccordionTransformer](https://github.com/geftimov/android-viewpager-transformers/wiki/AccordionTransformer)
 * [BackgroundToForegroundTransformer](https://github.com/geftimov/android-viewpager-transformers/wiki/BackgroundToForegroundTransformer)
