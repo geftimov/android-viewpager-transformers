@@ -13,7 +13,7 @@ This repos is fork from [daimajia](https://github.com/daimajia/ViewPagerTransfor
 
 How you can use it:
 
-```java
+```java 
 // Reference (or instantiate) a ViewPager instance and apply a transformer
 pager = (ViewPager) findViewById(R.id.container);
 pager.setAdapter(mAdapter);
