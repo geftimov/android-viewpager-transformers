@@ -20,7 +20,7 @@ pager.setAdapter(mAdapter);
 pager.setPageTransformer(true, new RotateUpTransformer());
 ```
 
-#List of transformers
+# List of transformers
 
 * [AccordionTransformer](https://github.com/geftimov/android-viewpager-transformers/wiki/AccordionTransformer)
 * [BackgroundToForegroundTransformer](https://github.com/geftimov/android-viewpager-transformers/wiki/BackgroundToForegroundTransformer)
@@ -45,7 +45,7 @@ pager.setPageTransformer(true, new RotateUpTransformer());
 
 
 
-#Creating Custom Transforms
+# Creating Custom Transforms
 
 All ViewPagerTransform implementations extend [BaseTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/BaseTransformer.java) providing useful hooks improving readability of animations and basic functionality important when switching between animations. [BaseTransformer](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/BaseTransformer.java) provides three lifecycle hooks and two flags for default handling of hiding offscreen fragments and mimicking the default paging functionality of the ViewPager.
 
@@ -56,7 +56,7 @@ All ViewPagerTransform implementations extend [BaseTransformer](https://github.c
 * [postTransform(View view, float position)](https://github.com/geftimov/android-viewpager-transformers/blob/master/library/src/main/java/com/eftimoff/viewpager/tranformators/BaseTransformer.java#L75)
  * Default implementation does nothing. This provides a logical location for any additional work to be done that is not directly related to the animation.
 
-#Special thanks for
+# Special thanks for
 [daimajia](https://github.com/daimajia)
 
 [ToxicBakery](https://github.com/ToxicBakery)
